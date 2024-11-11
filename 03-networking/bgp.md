@@ -12,7 +12,7 @@
 - It is not automatic, the communication between to AS should be done manually
 - Autonomous Systems do exchange network topology information between them
 - BGP is a path-vector protocol: it exchanges the best path to a destination between peers, the path is called **ASPATH** (Autonomous System Path)
-- Shorter Path as preferred path - ( not faster- but shince shorter path : are faster path)
+- Shorter Path as preferred path - ( not faster- but since shorter path : are mostly faster)
 - BGP does not take into account link speed or condition, it focuses on path only
 - iBGP - internal BGP, routing within an AS
 - eBGP - external BGP, routing between AS's
