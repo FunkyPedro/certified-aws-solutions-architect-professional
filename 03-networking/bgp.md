@@ -1,6 +1,7 @@
 # BGP - Border Gateway Protocol
 
 - BGP is a routing protocol
+- this is dominant for Inter-AS , there are lots of alternatives for intra AS.
 - Used to control how data flows from point A to point B
 - BGP is made up from a lot of self managing networks know as Autonomous Systems (AS)
 - AS could be a large network, collection of routes etc. and is viewed as a black box from BGP perspective
