@@ -93,6 +93,7 @@
 - Local Zones can be considered as one additional AZ (but near our location => lower latency), they don't have builtin AZ
 - Not all AWS products support Local Zones. From the ones which do support, many of them are opt-in an also many of them have limitations
 - Local Zones should be used when we need the highest performance
+- __Local Zonwa vs OutPosts
 
 ## Advanced VPC Routing
 
