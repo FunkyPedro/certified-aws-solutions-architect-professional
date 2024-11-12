@@ -102,7 +102,7 @@
   | - if you app needs ultra low latency like financial trading    |
   |    than go for OutPosts                                        |
   | - Local zones might not have certain services availability     |
-  | - should always pick *Regions -->Local Zones --> OutPosts **   |
+  | - should always pick **Regions -->Local Zones --> OutPosts **  |
   |    if the requirement permits                                  | 
     
 ## Advanced VPC Routing
