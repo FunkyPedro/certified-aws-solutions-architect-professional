@@ -93,8 +93,18 @@
 - Local Zones can be considered as one additional AZ (but near our location => lower latency), they don't have builtin AZ
 - Not all AWS products support Local Zones. From the ones which do support, many of them are opt-in an also many of them have limitations
 - Local Zones should be used when we need the highest performance
-- __Local Zonwa vs OutPosts
-
+- __Local Zones vs OutPosts__
+- |          Local Zone                       |      OutPost       |
+  |------------------------------------------ |-------------------:|
+  | aws managed ,usually on nearby metro area | on-premise         |
+  | - if you have video streaming app with use in metro area needin|
+  |    milliseconds latency than Local Zones                       |
+  | - if you app needs ultra low latency like financial trading    |
+  |    than go for OutPosts                                        |
+  | - Local zones might not have certain services availability     |
+  | - should always pick *Regions -->Local Zones --> OutPosts **   |
+  |    if the requirement permits                                  | 
+    
 ## Advanced VPC Routing
 
 - **Subnets are associated with 1 route table (RT) only, no more noe less!**
