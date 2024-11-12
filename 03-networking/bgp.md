@@ -21,5 +21,5 @@
     ![BGP 101](images/BorderGatewayProtocol101.png)
 - BGP always choses the shortest path. There are ways to influence the path by artificially expending the path (prepending itself to the path)
 - https://www.youtube.com/watch?v=1pyp0gvhRuM summary below
--     BGP allows snetwork routers to exchange information of every router it carries
--     Routers collect all the routing advertisements they get , and create routing table 
+  1. BGP allows network routers to exchange information of every router it carries
+  2. Routers collect all the routing advertisements they get , and create routing table 
