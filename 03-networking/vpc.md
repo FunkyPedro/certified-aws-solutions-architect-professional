@@ -122,7 +122,7 @@
 - Route tables can contain 2 types of routes:
     - Static routes: added manually by us
     - Propagated routes: added when enabled by us on the VPC or on any individual RT
-- Evaluation rule for the routes: 
+- Evaluation rule for the routes (https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html#route-priority-managed-prefix-list): 
     1. Longest prefix wins, example /32 wins over /24, /16 or /0. More specific routes always win!
     2. Static routes take priority over propagated routes
     3. For any routes learned by propagation:
