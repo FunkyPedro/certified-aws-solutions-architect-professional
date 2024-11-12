@@ -103,7 +103,9 @@
   |    than go for OutPosts                                        |
   | - Local zones might not have certain services availability     |
   | - should always pick **Regions -->Local Zones --> OutPosts **  |
-  |    if the requirement permits                                  | 
+  |    if the requirement permits                                  |
+- https://aws.amazon.com/blogs/compute/aws-local-zones-and-aws-outposts-choosing-the-right-technology-for-your-edge-workload/
+    
     
 ## Advanced VPC Routing
 
