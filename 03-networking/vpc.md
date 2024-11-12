@@ -104,6 +104,7 @@
   | - Local zones might not have certain services availability     |
   | - should always pick **Regions -->Local Zones --> OutPosts **  |
   |    if the requirement permits                                  |
+  | - data residency due to rules and regulation                   |
 - https://aws.amazon.com/blogs/compute/aws-local-zones-and-aws-outposts-choosing-the-right-technology-for-your-edge-workload/
     
     
