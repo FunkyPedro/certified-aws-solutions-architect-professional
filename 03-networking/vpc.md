@@ -174,3 +174,4 @@
     - Internet-facing load balancers can communicates with private instances. Internet facing load balancer needs to run in a public subnet
     - Number of subnets needed: number of subnets needed for the APP * AZs
     - NAT Gateway: we cannot have the NAT Gateway in the same subnet in which we would want the resources to also use it. Reason: we cannot have 2 default routes in the Route Table
+- **Prefix List** : this is similar to netpol concept in kubernetes , where  ip cidr for ingress/egress are put for good configuration mangement. 
