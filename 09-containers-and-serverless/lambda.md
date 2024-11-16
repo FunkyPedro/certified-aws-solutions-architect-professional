@@ -95,6 +95,10 @@
 - **Provisioned concurrency**: we can provision one or more execution contexts in advance for Lambda invocations
 - The improve performance we can use the `/tmp` folder to pre-download data to it. If another invocations uses the same execution context, it will be able to access the previously downloaded data
 - We can create database connections outside of the Lambda handler. These will also be available for other invocations afterwards
+- Reserved concurreny: you specify this if your function needs faster performance. If this is not specified , then it consumes from
+   Unreserved Concurrency Pool. By default at practice account minimum limit is 50.
+- Ran in to the problem , where CFN had reserved 10 concurrent execution , where Full account and Unreserved account concurrency were both 
+  50. To solve either increase the Full account concurrency or do not reserve the concurrent execution.
 
 ## Lambda Function Handler
 
