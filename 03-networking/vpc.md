@@ -3,6 +3,7 @@
 ## Public vs Private Services
 
 - Public service: a service which is accessed by using public endpoints
+- VPC is regional , cannot span across regions , while subnet are AZional , that is cannot span over multiple AZ
 - Private service: a service which runs inside a VPC
 - Either private or public, every service can have permissions in order to be accessible
 - VPC: private network isolated from the internet. Can't communicate to the network unless we are allowing it. Nothing from the internet can reach the services from a VPC as long as we do not configure it otherwise
